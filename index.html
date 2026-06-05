@@ -1,155 +1,184 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>이력서</title>
+<meta charset="UTF-8">
+<title>나의 일정</title>
+
+<style>
+body{ font-family: "맑은 고딕"; }
+h2{ margin-left: 20px; }
+
+.month{
+    width: 900px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0 10px 20px;
+}
+
+table{
+    width: 900px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+th, td{
+    border: 1px solid #cccccc;
+}
+
+th{
+    height: 35px;
+    background-color: #fafafa;
+}
+
+td{
+    height: 90px;
+    vertical-align: top;
+    padding: 6px;
+}
+
+.sun{ color: red; }
+.sat{ color: blue; }
+.other{ color: gray; }
+
+.schedule{
+    margin-top: 5px;
+    font-size: 13px;
+}
+</style>
 </head>
+
 <body>
 
-<table border="5" align="center" width="90%" cellspacing="0">
+<h2>┃ 나의 일정</h2>
 
-    <tr>
-        <th align="center" colspan="5" height="80" bgcolor="#c0c0c0">
-            이 력 서
-        </th>
-    </tr>
+<div class="month">◀ 2026년 6월 ▶</div>
 
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            인 적 사 항
-        </th>
-    </tr>
+<table>
+<tr>
+    <th class="sun">일</th>
+    <th>월</th>
+    <th>화</th>
+    <th>수</th>
+    <th>목</th>
+    <th>금</th>
+    <th class="sat">토</th>
+</tr>
 
-    <tr>
-        <td align="center" rowspan="3" width="180" height="180">
-            <img src="증명사진.jpg" width="150">
-        </td>
+<tr>
+    <td class="other">31</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3<div class="schedule">9회 지방선거</div></td>
+    <td>4</td>
+    <td>5</td>
+    <td class="sat">6<div class="schedule">현충일</div></td>
+</tr>
 
-        <th align="center" bgcolor="#c0c0c0">이름</th>
-        <td align="center">서지웅</td>
+<tr>
+    <td class="sun">7</td>
+    <td>8<div class="schedule">예비군</div></td>
+    <td>9<div class="schedule">예비군</div></td>
+    <td>10<div class="schedule">예비군</div></td>
+    <td>11<div class="schedule">예비군</div></td>
+    <td>12</td>
+    <td class="sat">13</td>
+</tr>
 
-        <th align="center" bgcolor="#c0c0c0">이메일</th>
-        <td align="center">tjwldnd02@naver.com</td>
-    </tr>
+<tr>
+    <td class="sun">14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td class="sat">20</td>
+</tr>
 
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">주소</th>
-        <td align="center" colspan="3">
-            부천시 원미구 원미로 143번길 32, 세화드림빌 2 301호
-        </td>
-    </tr>
+<tr>
+    <td class="sun">21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td class="sat">27</td>
+</tr>
 
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">전화번호</th>
-        <td align="center">010-8938-3346</td>
+<tr>
+    <td class="sun">28</td>
+    <td>29</td>
+    <td>30</td>
+    <td class="other">1</td>
+    <td class="other">2</td>
+    <td class="other">3</td>
+    <td class="other">4</td>
+</tr>
+</table>
 
-        <th align="center" bgcolor="#c0c0c0">생년월일</th>
-        <td align="center">2002.02.21</td>
-    </tr>
+<div class="month">◀ 2026년 7월 ▶</div>
 
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">병역사항</th>
-        <td align="center" colspan="2">
-            군필 ( ○ ) 미필 ( ) / 현역 3급
-        </td>
+<table>
+<tr>
+    <th class="sun">일</th>
+    <th>월</th>
+    <th>화</th>
+    <th>수</th>
+    <th>목</th>
+    <th>금</th>
+    <th class="sat">토</th>
+</tr>
 
-        <th align="center" bgcolor="#c0c0c0">복무 기간</th>
-        <td align="center">
-            2022-02-10 ~ 2024-12-09 / 산업기능요원 전역
-        </td>
-    </tr>
+<tr>
+    <td class="other">28</td>
+    <td class="other">29</td>
+    <td class="other">30</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td class="sat">4</td>
+</tr>
 
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            학 력 및 훈 련
-        </th>
-    </tr>
+<tr>
+    <td class="sun">5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td class="sat">11</td>
+</tr>
 
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">기간</th>
-        <th align="center" colspan="4" bgcolor="#c0c0c0">과정명</th>
-    </tr>
+<tr>
+    <td class="sun">12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17<div class="schedule">제헌절</div></td>
+    <td class="sat">18</td>
+</tr>
 
-    <tr>
-        <td align="center">2026-03 ~ 2028-02</td>
-        <td align="center" colspan="4">인천폴리텍 졸업</td>
-    </tr>
+<tr>
+    <td class="sun">19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td class="sat">25</td>
+</tr>
 
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            보유 자격증
-        </th>
-    </tr>
-
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">취득 날짜</th>
-        <th align="center" colspan="4" bgcolor="#c0c0c0">자격증 이름</th>
-    </tr>
-
-    <tr>
-        <td align="center">2020-12-24</td>
-        <td align="center" colspan="4">전기기능사</td>
-    </tr>
-
-    <tr>
-        <td align="center">2027-05-21</td>
-        <td align="center" colspan="4">정보처리산업기사</td>
-    </tr>
-
-    <tr>
-        <td align="center">2027-08-11</td>
-        <td align="center" colspan="4">SQLD</td>
-    </tr>
-
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            경력
-        </th>
-    </tr>
-
-    <tr>
-        <th align="center" bgcolor="#c0c0c0">기간</th>
-        <th align="center" colspan="4" bgcolor="#c0c0c0">업무 내용</th>
-    </tr>
-
-    <tr>
-        <td align="center">2020-10 ~ 2020-12</td>
-        <td align="center" colspan="4">
-            일진디스플레이 / 터치패널용 필름 가공 공정 작업 및 설비 운영
-        </td>
-    </tr>
-
-    <tr>
-        <td align="center">2022-02 ~ 2024-12</td>
-        <td align="center" colspan="4">
-            다재인텍(주) / 키오스크 LEC 조립 업무
-        </td>
-    </tr>
-
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            사용 언어 및 기술
-        </th>
-    </tr>
-
-    <tr>
-        <td align="center" colspan="5">
-            C, Java, HTML/CSS
-        </td>
-    </tr>
-
-    <tr>
-        <th align="center" colspan="5" height="50" bgcolor="#c0c0c0">
-            포트폴리오
-        </th>
-    </tr>
-
-    <tr>
-        <td align="center" colspan="5">
-            로그인 시스템 구현 (HTML) -
-            <a href="login.html" target="_blank">▶ 링크</a>
-        </td>
-    </tr>
-
+<tr>
+    <td class="sun">26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td class="other">1</td>
+</tr>
 </table>
 
 </body>
